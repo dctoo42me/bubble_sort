@@ -3,9 +3,8 @@ def bubble_sort(arr)
   i = 1
   swap = 0 
   while (i<arr.length) do
-    first_num = arr[i-1]
-    second_num = arr[i]
-    if first_num > second_num
+    #if first num > second num
+    if arr[i-1] > arr[i]
       #replace first_num with second_num
       arr[i],arr[i - 1] = arr[i-1],arr[i] 
       swap += 1
