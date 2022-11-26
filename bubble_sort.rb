@@ -20,4 +20,5 @@ def bubble_sort(arr)
     bubble_sort(arr)
   end
 end
-  bubble_sort(arr)
+  
+bubble_sort(arr)
